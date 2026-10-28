@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            text-align: center;
+            color: #333;
+            margin: 5px 0;
+        }
+        h3 {
+            margin-bottom: 20px;
+            color: #666;
+            font-weight: normal;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .student-name {
+            vertical-align: middle;
+        }
+        .total-row td {
+            font-weight: bold;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Information</h2>
+    <h3>Academic Year 2026–2027</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">S.No</th>
+                <th rowspan="2">Student Name</th>
+                <th rowspan="2">Roll No</th>
+                <th rowspan="2">Course</th>
+                <th colspan="2">Marks</th>
+            </tr>
+            <tr>
+                <th>Theory</th>
+                <th>Practical</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td>101</td>
+                <td>B.Tech</td>
+                <td>10</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td rowspan="2" class="student-name">Aman Sharma</td>
+                <td>102</td>
+                <td>CSE</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>103</td>
+                <td></td>
+                <td>30</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Neha Verma</td>
+                <td>104</td>
+                <td>MBA</td>
+                <td>40</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Rohit Kumar</td>
+                <td>105</td>
+                <td>BBA</td>
+                <td>50</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Sneha Gupta</td>
+                <td>106</td>
+                <td>BCA</td>
+                <td>60</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="5" style="text-align: center;">Total Students</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+</body>
+</html>
